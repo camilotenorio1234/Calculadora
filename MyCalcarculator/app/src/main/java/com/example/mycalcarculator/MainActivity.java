@@ -39,5 +39,7 @@ public class MainActivity extends AppCompatActivity {
     public  void Borrar(View view){
         operaciones_metodos opemeto=new operaciones_metodos();
         textview_Resultado.setText(0+"");
+        EditTextviewA.setText(null);
+        EditTextviewB.setText(null);
     }
 }
